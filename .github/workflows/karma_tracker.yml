@@ -2,7 +2,7 @@ name: Track Karma Points
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight
+    - cron: '52 1 * * *'  # Run daily at 1:52 AM
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
